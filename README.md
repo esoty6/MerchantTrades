@@ -1,2 +1,2 @@
 # MerchantTrades
-Plugin that replaces vanilla trades
+Plugin that modifies vanilla trades
