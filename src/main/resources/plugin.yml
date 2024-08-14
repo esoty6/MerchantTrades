@@ -1,0 +1,5 @@
+name: MerchantTrades
+api-version: 1.21.1
+main: com.github.esoty6.merchanttrades.MerchantTradesPlugin
+author: esoty6
+version: ${project.version}
