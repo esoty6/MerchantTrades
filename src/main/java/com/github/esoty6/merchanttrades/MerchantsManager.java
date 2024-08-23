@@ -11,7 +11,7 @@ import com.github.esoty6.merchanttrades.merchants.CustomMerchant;
 public class MerchantsManager {
   private Map<Villager, CustomMerchant> merchantsMap = new HashMap<>();
 
-  protected void createMerchant(Villager villager, VillagerAcquireTradeEvent event) {
+  public void createMerchant(Villager villager, VillagerAcquireTradeEvent event) {
     Profession villagerProfession = villager.getProfession();
 
     if (villagerProfession.equals(Profession.CLERIC)) {
@@ -20,5 +20,9 @@ public class MerchantsManager {
 
       event.setCancelled(true);
     }
+  }
+
+  public void removeMerchant(Villager villager) {
+    merchantsMap.remove(villager);
   }
 }
