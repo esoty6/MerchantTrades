@@ -6,7 +6,7 @@
 
     <groupId>com.github.esoty6</groupId>
     <artifactId>merchanttrades</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <name>MerchantTrades</name>
     <packaging>jar</packaging>
 
